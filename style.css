@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+/* Styling for the navbar */
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.navitem {
+  float: right;
+}
+
+li.navitem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+li.navitem a:hover {
+  background-color: #111;
+}
+.navbar img {
+  width: 120px;
+}
+
+/* Styling for the webpage */
+body {
+  background-color: #222;
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 76px;
+}
+
+p {
+  font-size: 28px;
+  line-height: 1.5;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.block {
+  flex-basis: 45%;
+  background-color: #444;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.block img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.block p {
+  color: #ccc;
+}
+
+.block a {
+  display: inline-block;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: #666;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.block a:hover {
+  background-color: #555;
+}
+
+footer {
+  height: 100px;
+  color: white;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .social-media a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  width: 100px;
+  justify-content: space-between;
+  display: flex;
+}
+footer .social-media a:hover {
+  opacity: 0.5;
+}
+
+/* Form*/
+.form-container {
+  display: none;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container.show {
+  display: block;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 20px;
+  background-color: #555;
+  color: #ddd;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#addButton {
+  display: block;
+  width: 8.7%;
+  padding: 10px;
+  background-color: #00c835;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#addButton:hover {
+  background-color: #777;
+}
+#removeAddButton {
+  display: none;
+  /* display: block; */
+  width: 20%;
+  padding: 10px;
+  background-color: #c80000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#removeAddButton:hover {
+  background-color: #777;
+}
+
+#database-table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#database-table th,
+#database-table td {
+  padding: 8px;
+  border: 1px solid #555;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.action-buttons button {
+  padding: 5px 10px;
+  margin: 0 2px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.action-buttons button:hover {
+  background-color: #777;
+}

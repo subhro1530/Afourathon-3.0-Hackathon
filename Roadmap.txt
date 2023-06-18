@@ -1,0 +1,14 @@
+------18/06/2023 8:20PM
+>>  Done
+1.  Made the pages index.html, student.html , subject.html
+2.  UI is mostly complete
+3.  Added the Javascript functionality of adding rows to a table and opening the info tab as a button is clicked.
+
+>>  Left
+1.  Add style to the button inside the info block or the popup.
+2.  Solve the problem of extra rows adding.
+3.  Connect the Google Sheets as the database to store the student Details.
+4.  Subject page left.
+5.  Analyze previous Projects so that you get a rough idea of how to connect indivitual elements to rows in g sheets.
+6.  Export the g sheet data to the column everytime the app reloads.
+----------
